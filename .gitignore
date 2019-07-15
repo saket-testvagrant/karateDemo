@@ -22,5 +22,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-#Intellij files
-.idea/
+.idea
+.gradle
+build
+out
+optimus.log
+dump.rdb
+.DS_Store
+app/*
+classes
+bin/
+src/test/test.iml
+.classpath
+.project
+.swp
+.swo
+*.iml
+/lib
