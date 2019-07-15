@@ -32,7 +32,7 @@ Feature: Karate test script for Users
 
   Scenario: Create new user
     Given path 'users'
-    And request read('/Users/saket/Documents/postData.json')
+    And request read('classpath:/postData.json')
     When method post
     Then status 201
     And match response.first_name == 'Krunal'
